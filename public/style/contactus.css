@@ -1,0 +1,205 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #F8F4E1; 
+        }
+
+        /* Navigation bar styling */
+        /* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+    background-color: #AF8F6F !important; /* Ensure the background color is correctly applied */
+    position: sticky; /* Make navbar sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1030; /* Ensure it stays above other content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for visual appeal */
+    text-align: center;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .form-inline .btn {
+    color: white !important; /* Ensure text and icons are white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White toggle icon */
+}
+
+
+.navbar .navbar-brand img {
+    max-height: 40px; /* Adjust logo size */
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.navbar .nav-link {
+    margin-right: 1rem; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar .nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar .form-control {
+    background-color: #EFEFEF; /* Light background for search input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.navbar .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(116,81,45, 0.8); /* Glow effect on focus */
+}
+
+.navbar .btn {
+    border-color: white; /* White border for buttons */
+}
+
+.navbar .btn:hover {
+    background-color: #74512D; /* Change background color on hover */
+    color: #333; /* Dark text for contrast */
+}
+
+  /* Contact Section Styling */
+  .contact-section {
+    padding: 50px 20px;
+    margin-top: 40px;
+}
+
+.contact-wrapper {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    overflow: hidden;
+     max-width: 1000px; /* Set a max width to make the box smaller */
+}
+
+.contact-info {
+    background-color: #AF8F6F;
+    color: #fff;
+    width: 35%;
+    padding: 15px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 15px;
+}
+
+.contact-info h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.contact-info-item {
+    margin-bottom: 15px;
+    
+}
+
+.contact-form h2 {
+    color: #74512D;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.submit-btn {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    background-color: #AF8F6F;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #74512D;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 10px 10px;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #AF8F6F;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #74512D;
+    text-decoration: none;
+}

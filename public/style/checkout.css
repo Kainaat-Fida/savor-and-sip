@@ -1,0 +1,108 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #F8F4E1; 
+        }
+
+        /* Navigation bar styling */
+        /* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+    background-color: #AF8F6F !important; /* Ensure the background color is correctly applied */
+    position: sticky; /* Make navbar sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1030; /* Ensure it stays above other content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for visual appeal */
+    text-align: center;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .form-inline .btn {
+    color: white !important; /* Ensure text and icons are white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White toggle icon */
+}
+
+
+.navbar .navbar-brand img {
+    max-height: 40px; /* Adjust logo size */
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.navbar .nav-link {
+    margin-right: 1rem; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar .nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar .form-control {
+    background-color: #EFEFEF; /* Light background for search input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.navbar .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(116,81,45, 0.8); /* Glow effect on focus */
+}
+
+.navbar .btn {
+    border-color: white; /* White border for buttons */
+}
+
+.navbar .btn:hover {
+    background-color: #74512D; /* Change background color on hover */
+    color: #333; /* Dark text for contrast */
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+.checkout-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-container h2{
+    font-weight: 600;
+    color: #74512D;
+}
+
+.checkout-container h5{
+    font-weight: 600;
+}
+.cart-summary {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.btn-order{
+    background-color: #AF8F6F;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-order:hover {
+    background-color: #74512D;
+    border-color: #74512D;
+    font-weight: bold;
+}

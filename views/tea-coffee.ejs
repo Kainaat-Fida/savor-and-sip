@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor & Sip | Tea & Coffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/tea-coffee.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/home">
+                <img src="./photos/logo.jpeg" alt="Logo" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart"><i class="bi bi-cart"></i> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about"><i class="bi bi-lightbulb"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact-us"><i class="bi bi-envelope"></i> Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1 class="page-title">Teas / Coffees</h1>
+    <div class="no-results-message" style="display:none; text-align: center; font-size: 18px;">
+        No items found.
+    </div>
+    <div class="products-container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/Dhood Patti.jpeg" alt="Dhood Patti" class="product-image">
+                    <h3 class="product-title">Dhood Patti</h3>
+                    <p class="product-price">$2.99</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Dhood Patti" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Dhood Patti</h3>
+                        <p class="product-details">
+                            A rich, aromatic tea prepared with premium black tea leaves and infused with a blend of spices. Dhood Patti Chai offers an authentic flavor with a creamy texture, perfect for a relaxing break.
+                        </p>
+                        <p class="ingredients">
+                            Key Ingredients: Black Tea Leaves, Full Cream Milk, Sugar (Optional), Cardamom, Cloves and Ginger.
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/matka chai.jpeg" alt="Matka Chaaye" class="product-image">
+                    <h3 class="product-title">Matka Chaaye</h3>
+                    <p class="product-price">$3.99</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Matka Chaaye" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Matka Chaaye</h3>
+                        <p class="product-details">
+                            Matka Chai is a traditional clay pot tea brewed to perfection, delivering an earthy aroma and robust flavor. Served in a matka (earthen pot), this chai offers an authentic, rustic experience with a hint of smokiness and a creamy, spiced undertone.
+                         </p>
+                        <p class="ingredients">
+                            Key Ingredients: Black Tea Leaves, Milk, Sugar (Optional), Cardamom, Cloves and Ginger.
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/kashmiri chai.jpeg" alt="Kashmiri Chaaye" class="product-image">
+                    <h3 class="product-title">Kashmiri Chaaye</h3>
+                    <p class="product-price">$3.05</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Kashmiri Chaaye" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Kashmiri Chaaye</h3>
+                        <p class="product-details">
+                            Kashmiri Chai, also known as Pink Tea, is a delicate, aromatic tea with a creamy texture and a subtle blend of spices. This tea features a beautiful rosy-pink color, topped with crushed nuts for a luxurious and soothing experience. 
+                        </p>
+                        <p class="ingredients">
+                            Key Ingredients: Kashmiri Green Tea Leaves, Full Cream Milk, Baking Soda, Salt (a pinch), Sugar (Optional), Cardamom, Crushed Pistachios & Almonds
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/Latte coffee.jpeg" alt="Latte" class="product-image">
+                    <h3 class="product-title">Latte Coffee</h3>
+                    <p class="product-price">$4.99</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Latte Coffee" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Latte Coffee</h3>
+                        <p class="product-details">
+                            Latte Coffee is a smooth, creamy espresso-based drink, made with a perfect balance of rich espresso and steamed milk, topped with a light layer of frothy milk foam. Ideal for coffee lovers who enjoy a mild, velvety flavor and a comforting experience.
+                        </p>
+                        <p class="ingredients">
+                            Key Ingredients: Freshly Brewed Espresso, Steamed Full Cream Milk, Milk Foam, Optional Add-ons: Vanilla Syrup, Caramel Drizzle, or Hazelnut Syrup.
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/Cappuccino.jpeg" alt="Cappuccino" class="product-image">
+                    <h3 class="product-title">Cappuccino Coffee</h3>
+                    <p class="product-price">$2.99</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Cappuccino Coffee" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Cappuccino Coffee</h3>
+                        <p class="product-details">
+                            A classic Italian coffee made with equal parts of espresso, steamed milk, and creamy milk foam. Our Cappuccino delivers a rich, smooth flavor with a velvety texture, topped with a light dusting of cocoa powder for a perfect balance of boldness and creaminess.
+                        </p>
+                        <p class="ingredients">
+                            Key Ingredients: Freshly Brewed Espresso, Steamed Milk, Milk Foam, Cocoa Powder (Optional)
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <div class="product-card-inner">
+                <div class="product-front">
+                    <img src="./photos/Espresso.png" alt="Espresso " class="product-image">
+                    <h3 class="product-title">Espresso Coffee </h3>
+                    <p class="product-price">$3.99</p>
+                </div>
+                <div class="product-back">
+                    <img src="./photos/background card.jpeg" alt="Espresso" class="product-back-image">
+                    <div class="product-back-content">
+                        <h3 class="product-title">Espresso</h3>
+                        <p class="product-details">
+                            Espresso Coffee is a rich, bold, and intense coffee brewed using finely ground coffee beans and high-pressure extraction. Known for its strong aroma and full-bodied flavor.Served hot and freshly brewed to perfection for coffee lovers who crave a quick, energizing kick.
+                        </p>
+                        <p class="ingredients">
+                            Key Ingredients: Freshly Ground Coffee Beans, Filtered Water
+                        </p>
+                        <button class="add-to-cart-btn"><i class="bi bi-cart-plus"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <script>
+        // Add to Cart Logic
+        document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const productCard = e.target.closest('.product-card');
+                const productName = productCard.querySelector('.product-title').innerText;
+                const productPrice = parseFloat(productCard.querySelector('.product-price').innerText.replace('$', ''));
+                const productImage = productCard.querySelector('.product-image').src;
+    
+                // Retrieve cart from localStorage or initialize empty
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+                // Check if product already exists
+                const existingProduct = cart.find(item => item.name === productName);
+                if (existingProduct) {
+                    existingProduct.quantity += 1;
+                } else {
+                    cart.push({ name: productName, price: productPrice, image: productImage, quantity: 1 });
+                }
+    
+                // Save updated cart to localStorage
+                localStorage.setItem('cart', JSON.stringify(cart));
+    
+                alert(`${productName} has been added to the cart.`);
+            });
+        });
+    </script>
+
+
+
+
+<script>
+    // Search functionality
+    document.querySelector('.form-inline').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent page reload
+        
+        const query = document.querySelector('.form-control').value.toLowerCase();
+        const items = document.querySelectorAll('.product-card, .category');
+        const noResultsMessage = document.querySelector('.no-results-message');
+        let found = false;
+
+        items.forEach(item => {
+            const text = item.innerText.toLowerCase();
+            if (text.includes(query)) {
+                item.style.display = 'block'; // Show matching items
+                item.classList.add('search-highlight'); // Highlight matching items
+                found = true;
+            } else {
+                item.style.display = 'block'; // Keep all items visible
+                item.classList.remove('search-highlight'); // Remove highlight from non-matching items
+            }
+        });
+
+        // Show or hide the "No items found" message
+        if (!found) {
+            noResultsMessage.style.display = 'block';
+        } else {
+            noResultsMessage.style.display = 'none';
+        }
+    });
+
+    // Reset highlights and "No items found" message when input is cleared
+    document.querySelector('.form-control').addEventListener('input', function() {
+        const items = document.querySelectorAll('.product-card, .category');
+        const noResultsMessage = document.querySelector('.no-results-message');
+
+        if (this.value === '') {
+            items.forEach(item => {
+                item.classList.remove('search-highlight'); // Remove highlight
+            });
+            noResultsMessage.style.display = 'none'; // Hide the message
+        }
+    });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

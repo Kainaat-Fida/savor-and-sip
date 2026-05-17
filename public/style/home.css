@@ -1,0 +1,281 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F8F4E1; 
+        }
+
+        /* Navigation bar styling */
+        /* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+    background-color: #AF8F6F !important; /* Ensure the background color is correctly applied */
+    position: sticky; /* Make navbar sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1030; /* Ensure it stays above other content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for visual appeal */
+    text-align: center;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .form-inline .btn {
+    color: white !important; /* Ensure text and icons are white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White toggle icon */
+}
+
+
+.navbar .navbar-brand img {
+    max-height: 40px; /* Adjust logo size */
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.navbar .nav-link {
+    margin-right: 1rem; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar .nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar .form-control {
+    background-color: #EFEFEF; /* Light background for search input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.navbar .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(116,81,45, 0.8); /* Glow effect on focus */
+}
+
+.navbar .btn {
+    border-color: white; /* White border for buttons */
+}
+input[type="search"]::-webkit-search-cancel-button {
+    filter: invert(100%); /* to make the X white or dark */
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar .btn:hover {
+    background-color: #74512D; /* Change background color on hover */
+    color: #333; /* Dark text for contrast */
+}
+
+
+        /* Welcome banner styling */
+        #welcome-banner {
+            background-image: url('../photos/header-background.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            position: relative;
+            transition: all 0.5s ease;
+
+        }
+
+        /* Enhanced text for Welcome message */
+        #welcome-banner h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            margin: 0;
+        }
+
+        /* Styled button */
+        #welcome-banner button {
+            margin-top: 20px;
+            padding: 20px 20px;
+            font-size: 1em;
+            font-weight: 600;
+            background-color: #AF8F6F;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        #welcome-banner button:hover {
+            background-color: #74512D;
+            transform: scale(1.05);
+        }
+
+
+        .categories-heading{
+            text-align: center;
+            margin-top: 4rem;
+        }
+/* Categories Section */
+.categories-heading {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: #74512D;
+    font-weight: bold;
+}
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.category {
+    width: calc(25% - 20px);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.category span {
+
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-weight: normal; /* Default weight */
+    transition: font-weight 0.3s ease;
+    text-decoration: none;
+}
+.category:hover span {
+    font-weight: bold; /* Bold text on hover */
+    text-decoration: none;
+    
+}
+.category:focus span {
+    outline: none; /* Removes the focus outline */
+    text-decoration: none;
+}
+
+
+/* Articles Section */
+#articles {
+    background-color: #F8F4E1;
+    padding: 40px 20px;
+}
+
+#articles h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6C4C2E;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body .btn-read{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #AF8F6F;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-body .btn-read:hover {
+    background-color: #74512D;
+    transform: scale(1.05);
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #AF8F6F;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+
+footer a {
+    color: #FFC107;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/*media queries*/
+
+@media (max-width: 768px) {
+    .category {
+        width: calc(50% - 10px);
+    }
+
+    #welcome-banner h1 {
+        font-size: 2rem;
+    }
+
+    #welcome-banner button {
+        font-size: 1rem;
+    }
+}

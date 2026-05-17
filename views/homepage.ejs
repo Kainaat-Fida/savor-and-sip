@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor & Sip | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/home.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/home">
+                <img src="./photos/logo.jpeg" alt="Logo" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart"><i class="bi bi-cart"></i> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about"><i class="bi bi-lightbulb"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact-us"><i class="bi bi-envelope"></i> Contact Us</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn  my-2 my-sm-0" type="submit">
+                        <i class="bi bi-search" style="color: white;"></i>
+                    </button>
+                </form>
+                <li class="nav-item">
+                        <a class="nav-link" href="/logout"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+        <!-- Welcome Banner -->
+    <section id="welcome-banner">
+        <h1>Welcome to Savor & Sip</h1> <br>
+        <h4>We serve the richest COFFEE in the city!</h4>
+        <button onclick="scrollToCategories()">Go to Categories</button>
+    </section>
+
+    <!-- Categories Section -->
+     <section id="categories">
+        <h2 class="categories-heading">Categories</h2>
+    <div class="categories-container">
+        <a href="/tea-coffee" class="category" style="background-image: url('/photos/tea-coffee.jpeg');"><span>Teas/ Coffees</span></a>
+        <a href="/fastfood" class="category" style="background-image: url('/photos/fastfood.jpeg');"><span>Fast Food</span></a>
+        <a href="/soup-salad" class="category" style="background-image: url('/photos/soup-salad.jpeg');"><span>Soup/ Salad</span></a>
+        <a href="/dessert" class="category" style="background-image: url('/photos/dessert-bakery.jpg');"><span>Desserts/ Bakery</span></a>
+    </div>
+     </section>
+
+
+     <!-- Articles Section -->
+<section id="articles">
+    <div class="container">
+        <h2 class="text-center mb-4">Things You Need To Know !</h2>
+        <div class="row">
+            <!-- Article 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./photos/article1.jpg" class="card-img-top" alt="Coffee Brewing Tips">
+                    <div class="card-body">
+                        <h5 class="card-title">Chai vs Coffee: What Makes Chai the Comfort Drink?</h5>
+                        <p class="card-text">Chai, with its harmonious blend of spices, offers a warm, aromatic hug in every sip, unlike coffee's bold intensity. Its milky texture and gentle sweetness soothe the senses, making it a go-to comfort drink. Steeped in tradition, chai fosters connection and relaxation, evoking feelings of home and community.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Article 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./photos/article2.jpg" class="card-img-top" alt="blend of tea">
+                    <div class="card-body">
+                        <h5 class="card-title">Steeping Stories: The Perfect Blend of Tea and Book Pairing</h5>
+                        <p class="card-text">Steeping Stories celebrates the harmony of tea and literature, where each sip complements the turn of a page. Discover the joy of pairing the perfect brew with captivating tales that suit your mood. It's a sensory journey blending flavors and narratives into a cozy escape.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Article 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./photos/article3.jpg" class="card-img-top" alt="Coffee Culture">
+                    <div class="card-body">
+                        <h5 class="card-title">The Art of Tea Leaf Divination: Connecting Ancient Wisdom with Today's World</h5>
+                        <p class="card-text">Tea leaf reading blends ancient tradition with modern curiosity, offering insights into the future through the patterns left behind in your cup. This practice invites reflection, guiding you to discover hidden meanings in everyday moments. It’s a timeless art that brings mysticism into contemporary life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+     <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>We are dedicated to serving the richest coffee and delicious treats. Visit us for an unforgettable experience!</p>
+            </div>
+            <!-- Contact Section -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-geo-alt"></i> 123 Coffee Street, Coffee City</li>
+                    <li><i class="bi bi-telephone"></i> +123 456 7890</li>
+                    <li><i class="bi bi-envelope"></i> info@coffee.com</li>
+                </ul>
+            </div>
+            <!-- Social Media Section -->
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-white mr-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white mr-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white mr-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <div class="text-center">
+            &copy; 2025 Savor & Sip. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+    
+    <script>
+        function scrollToCategories() {
+            window.scrollTo({
+                top: document.getElementById('categories').offsetTop - 80,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+    // Search functionality
+    document.querySelector('.form-inline').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent page reload
+        
+        const query = document.querySelector('.form-control').value.toLowerCase();
+        const items = document.querySelectorAll('.product-card, .category');
+
+        items.forEach(item => {
+            const text = item.innerText.toLowerCase();
+            if (text.includes(query)) {
+                item.style.display = 'block'; // Show matching items
+            } else {
+                item.style.display = 'none'; // Hide non-matching items
+            }
+        });
+    });
+
+    // Reset search when the input is cleared
+    document.querySelector('.form-control').addEventListener('input', function() {
+        if (this.value === '') {
+            const items = document.querySelectorAll('.product-card, .category');
+            items.forEach(item => {
+                item.style.display = 'inline-block';
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
